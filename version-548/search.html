@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://vercelcn.com/ads-widget.js"></script>
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>搜索影片 - 欧美热门电影</title>
+  <meta name="description" content="搜索欧美热门电影、最新影片、高清电影、剧集、年份、地区与类型。">
+  <meta name="keywords" content="影片搜索,欧美热门电影,欧美电影,最新影片,电影合集,高清电影,在线播放,热门片库">
+  <link rel="stylesheet" href="./assets/base.css">
+  <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body class="site-body">
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="./index.html" aria-label="欧美热门电影">
+      <span class="brand-mark">▶</span>
+      <span class="brand-copy">
+        <span class="brand-title">欧美热门电影</span>
+        <span class="brand-subtitle">高清电影在线播放</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="主导航">
+      <a class="nav-link " href="./index.html">首页</a> <a class="nav-link " href="./categories.html">分类</a> <a class="nav-link " href="./rank.html">排行榜</a> <a class="nav-link active" href="./search.html">搜索</a>
+    </nav>
+    <form class="header-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索片名、类型、年份" aria-label="搜索片名">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-button" type="button" data-mobile-toggle aria-label="打开导航">☰</button>
+  </div>
+  <nav class="mobile-nav" data-mobile-nav aria-label="移动端导航">
+    <a class="mobile-link " href="./index.html">首页</a> <a class="mobile-link " href="./categories.html">分类</a> <a class="mobile-link " href="./rank.html">排行榜</a> <a class="mobile-link active" href="./search.html">搜索</a>
+  </nav>
+</header>
+<main class="page-shell">
+  <section class="page-hero small-hero">
+    <div class="container">
+      <p class="eyebrow">Search</p>
+      <h1>影片搜索</h1>
+      <p>输入片名、年份、地区或类型，快速查找可播放详情页。</p>
+      <div class="search-panel">
+        <input id="siteSearchInput" type="search" placeholder="输入关键词搜索影片" aria-label="搜索影片">
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div id="siteSearchResults" class="search-results"></div>
+      <div class="section-head">
+        <div>
+          <h2>热门推荐</h2>
+          <p>也可以直接从这些影片开始浏览。</p>
+        </div>
+      </div>
+      <div class="cards-grid"><article class="movie-card" data-search="火星坏女孩 中国大陆 电影 科幻, 喜剧, 冒险 火星殖民, 女性力量, 荒诞科幻 2030" data-year="2030" data-type="电影">
+  <a class="poster-wrap" href="./movie-0339.html" aria-label="观看火星坏女孩">
+    <img class="movie-poster" src="./39.jpg" alt="火星坏女孩">
+    <span class="year-badge">2030</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>中国大陆</span><span>电影</span></div>
+    <h2><a href="./movie-0339.html">火星坏女孩</a></h2>
+    <p>2045年火星殖民地里最叛逆的三个女孩，意外唤醒了一艘外星飞船，被迫开启银河系逃亡之旅。</p>
+    <div class="card-tags"><span>火星殖民</span><span>女性力量</span><span>荒诞科幻</span></div>
+  </div>
+</article>
+<article class="movie-card" data-search="兔儿爷 中国大陆 电影 奇幻 / 民俗 老北京传说, 人偶附灵, 温情奇幻 2029" data-year="2029" data-type="电影">
+  <a class="poster-wrap" href="./movie-0211.html" aria-label="观看兔儿爷">
+    <img class="movie-poster" src="./61.jpg" alt="兔儿爷">
+    <span class="year-badge">2029</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>中国大陆</span><span>电影</span></div>
+    <h2><a href="./movie-0211.html">兔儿爷</a></h2>
+    <p>北京胡同里一个孤独的老手艺人发现他捏的兔儿爷泥偶，每晚都会活过来替他给邻居送礼。</p>
+    <div class="card-tags"><span>老北京传说</span><span>人偶附灵</span><span>温情奇幻</span></div>
+  </div>
+</article>
+<article class="movie-card" data-search="霹雳兵涛 台湾 电影 动作 / 战争 特种兵 / 兄弟连 / 台海 / 实弹 2029" data-year="2029" data-type="电影">
+  <a class="poster-wrap" href="./movie-1557.html" aria-label="观看霹雳兵涛">
+    <img class="movie-poster" src="./57.jpg" alt="霹雳兵涛">
+    <span class="year-badge">2029</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>台湾</span><span>电影</span></div>
+    <h2><a href="./movie-1557.html">霹雳兵涛</a></h2>
+    <p>一群被除名的“问题士兵”被秘密集结，执行一项不可能完成的斩首任务，背后却是政治阴谋。</p>
+    <div class="card-tags"><span>特种兵</span><span>兄弟连</span><span>台海</span></div>
+  </div>
+</article>
+<article class="movie-card" data-search="感官妄想 中国大陆 电影 科幻、悬疑、心理惊悚 脑机接口, 虚实难辨, 记忆植入 2028" data-year="2028" data-type="电影">
+  <a class="poster-wrap" href="./movie-0264.html" aria-label="观看感官妄想">
+    <img class="movie-poster" src="./114.jpg" alt="感官妄想">
+    <span class="year-badge">2028</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>中国大陆</span><span>电影</span></div>
+    <h2><a href="./movie-0264.html">感官妄想</a></h2>
+    <p>当一款能模拟一切感官的芯片植入大脑，用户开始分不清美食、性爱甚至谋杀，究竟是真实发生还是产品幻觉。</p>
+    <div class="card-tags"><span>脑机接口</span><span>虚实难辨</span><span>记忆植入</span></div>
+  </div>
+</article>
+<article class="movie-card" data-search="碎块爱情短片 波兰 电影 爱情, 剧情, 实验 拼贴叙事, 爱情哲学, 分段式, 诗意影像 2028" data-year="2028" data-type="电影">
+  <a class="poster-wrap" href="./movie-0899.html" aria-label="观看碎块爱情短片">
+    <img class="movie-poster" src="./149.jpg" alt="碎块爱情短片">
+    <span class="year-badge">2028</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>波兰</span><span>电影</span></div>
+    <h2><a href="./movie-0899.html">碎块爱情短片</a></h2>
+    <p>一部由十段“爱情碎块”拼接而成的实验电影，每段风格迥异，共同拼出一幅关于爱的复杂拼图。</p>
+    <div class="card-tags"><span>拼贴叙事</span><span>爱情哲学</span><span>分段式</span></div>
+  </div>
+</article>
+<article class="movie-card" data-search="日日是好日 日本 电视剧 剧情 / 家庭 慢生活, 丧偶重生, 日式治愈, 园艺 2028" data-year="2028" data-type="电视剧">
+  <a class="poster-wrap" href="./movie-0947.html" aria-label="观看日日是好日">
+    <img class="movie-poster" src="./47.jpg" alt="日日是好日">
+    <span class="year-badge">2028</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>日本</span><span>电视剧</span></div>
+    <h2><a href="./movie-0947.html">日日是好日</a></h2>
+    <p>一个失去丈夫的退休女强人，为了逃避空巢生活，搬到乡下继承亡夫的破旧花圃，却在泥土和种子中重新学会了呼吸。</p>
+    <div class="card-tags"><span>慢生活</span><span>丧偶重生</span><span>日式治愈</span></div>
+  </div>
+</article>
+<article class="movie-card" data-search="萨拉托加（电影） 美国 电影 历史, 战争 独立战争, 转折点, 战术博弈 2028" data-year="2028" data-type="电影">
+  <a class="poster-wrap" href="./movie-1030.html" aria-label="观看萨拉托加（电影）">
+    <img class="movie-poster" src="./130.jpg" alt="萨拉托加（电影）">
+    <span class="year-badge">2028</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>美国</span><span>电影</span></div>
+    <h2><a href="./movie-1030.html">萨拉托加（电影）</a></h2>
+    <p>美国独立战争转折点，一位失意将军如何用一瓶威士忌扭转战局。</p>
+    <div class="card-tags"><span>独立战争</span><span>转折点</span><span>战术博弈</span></div>
+  </div>
+</article>
+<article class="movie-card" data-search="大家庭 中国大陆 剧集 家庭 / 年代 三代同堂, 时代变迁, 烟火气, 群像 2028" data-year="2028" data-type="剧集">
+  <a class="poster-wrap" href="./movie-1702.html" aria-label="观看大家庭">
+    <img class="movie-poster" src="./52.jpg" alt="大家庭" loading="lazy">
+    <span class="year-badge">2028</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>中国大陆</span><span>剧集</span></div>
+    <h2><a href="./movie-1702.html">大家庭</a></h2>
+    <p>从粮票到外卖，三代人住在同一栋老楼里，用四十年证明：家和万事“吵”。</p>
+    <div class="card-tags"><span>三代同堂</span><span>时代变迁</span><span>烟火气</span></div>
+  </div>
+</article>
+<article class="movie-card" data-search="奥德赛：战神传奇 希腊 / 美国 电影 史诗动作 / 奇幻冒险 远征, 命运, 神战, 海上冒险, 失落王国, 英雄成长 2028" data-year="2028" data-type="电影">
+  <a class="poster-wrap" href="./movie-1830.html" aria-label="观看奥德赛：战神传奇">
+    <img class="movie-poster" src="./30.jpg" alt="奥德赛：战神传奇" loading="lazy">
+    <span class="year-badge">2028</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>希腊 / 美国</span><span>电影</span></div>
+    <h2><a href="./movie-1830.html">奥德赛：战神传奇</a></h2>
+    <p>一位被诸神遗弃的王子在海上漂泊十年，只为把一场足以改写王国命运的战争真相带回故乡。</p>
+    <div class="card-tags"><span>远征</span><span>命运</span><span>神战</span></div>
+  </div>
+</article>
+<article class="movie-card" data-search="妇道之夺子战争 中国大陆 剧集 家庭 / 伦理 婆媳，豪门，夺子，虐恋，反转 2027" data-year="2027" data-type="剧集">
+  <a class="poster-wrap" href="./movie-0044.html" aria-label="观看妇道之夺子战争">
+    <img class="movie-poster" src="./44.jpg" alt="妇道之夺子战争" loading="lazy">
+    <span class="year-badge">2027</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>中国大陆</span><span>剧集</span></div>
+    <h2><a href="./movie-0044.html">妇道之夺子战争</a></h2>
+    <p>善良的灰姑娘为救养父嫁给植物人富少，却被恶婆婆扫地出门，五年后她带着天才儿子回归复仇。</p>
+    <div class="card-tags"><span>婆媳</span><span>豪门</span><span>夺子</span></div>
+  </div>
+</article>
+<article class="movie-card" data-search="韩半岛 韩国 电影 动作 / 科幻 / 惊悚 朝韩统一, 核电站, 恐怖袭击, 近未来, 硬核动作 2027" data-year="2027" data-type="电影">
+  <a class="poster-wrap" href="./movie-0068.html" aria-label="观看韩半岛">
+    <img class="movie-poster" src="./68.jpg" alt="韩半岛" loading="lazy">
+    <span class="year-badge">2027</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>韩国</span><span>电影</span></div>
+    <h2><a href="./movie-0068.html">韩半岛</a></h2>
+    <p>统一前夕，一颗微型黑洞被引爆在板门店，整个韩半岛即将在两小时内被撕碎。</p>
+    <div class="card-tags"><span>朝韩统一</span><span>核电站</span><span>恐怖袭击</span></div>
+  </div>
+</article>
+<article class="movie-card" data-search="筑得到的幸福 中国台湾 剧集 剧情、家庭 建筑, 亲情, 土地正义, 人文关怀 2027" data-year="2027" data-type="剧集">
+  <a class="poster-wrap" href="./movie-0467.html" aria-label="观看筑得到的幸福">
+    <img class="movie-poster" src="./17.jpg" alt="筑得到的幸福" loading="lazy">
+    <span class="year-badge">2027</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>中国台湾</span><span>剧集</span></div>
+    <h2><a href="./movie-0467.html">筑得到的幸福</a></h2>
+    <p>一个面临拆迁的老建筑队，接到最后一个任务：在30天内，为拆掉他们的开发商建一栋“不可能”的房子。</p>
+    <div class="card-tags"><span>建筑</span><span>亲情</span><span>土地正义</span></div>
+  </div>
+</article>
+<article class="movie-card" data-search="仙班校园 中国大陆 剧集 喜剧 / 奇幻 / 校园 神仙, 高考, 反差萌 2027" data-year="2027" data-type="剧集">
+  <a class="poster-wrap" href="./movie-0486.html" aria-label="观看仙班校园">
+    <img class="movie-poster" src="./36.jpg" alt="仙班校园" loading="lazy">
+    <span class="year-badge">2027</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>中国大陆</span><span>剧集</span></div>
+    <h2><a href="./movie-0486.html">仙班校园</a></h2>
+    <p>太白金星下凡当高中班主任，要在一学期内把一班“学渣神仙”送进重点大学。</p>
+    <div class="card-tags"><span>神仙</span><span>高考</span><span>反差萌</span></div>
+  </div>
+</article>
+<article class="movie-card" data-search="养鬼屋 台湾 / 日本 电影 恐怖 / 民俗 东南亚邪术, 古曼童, 密室, 心理惊悚 2027" data-year="2027" data-type="电影">
+  <a class="poster-wrap" href="./movie-0567.html" aria-label="观看养鬼屋">
+    <img class="movie-poster" src="./117.jpg" alt="养鬼屋" loading="lazy">
+    <span class="year-badge">2027</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>台湾 / 日本</span><span>电影</span></div>
+    <h2><a href="./movie-0567.html">养鬼屋</a></h2>
+    <p>为了红，过气女主播搬进凶宅直播“养小鬼”，却发现自己供养的灵体不止一个，且它们都在模仿她的生活。</p>
+    <div class="card-tags"><span>东南亚邪术</span><span>古曼童</span><span>密室</span></div>
+  </div>
+</article>
+<article class="movie-card" data-search="三六巷 中国大陆 电影 剧情 / 犯罪 城中村, 拆迁, 黑帮 2027" data-year="2027" data-type="电影">
+  <a class="poster-wrap" href="./movie-0602.html" aria-label="观看三六巷">
+    <img class="movie-poster" src="./2.jpg" alt="三六巷" loading="lazy">
+    <span class="year-badge">2027</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>中国大陆</span><span>电影</span></div>
+    <h2><a href="./movie-0602.html">三六巷</a></h2>
+    <p>海口最后一个城中村“三六巷”面临强拆，本地阿叔、东北租客、福建开发商和越南偷渡客，四个人为了各自的家，拿起了撬棍和砍刀。</p>
+    <div class="card-tags"><span>城中村</span><span>拆迁</span><span>黑帮</span></div>
+  </div>
+</article>
+<article class="movie-card" data-search="雷迪克编年史：黑暗女神 美国 电影 动作, 科幻 反英雄, 星际, 神话, 复仇, 暗黑 2027" data-year="2027" data-type="电影">
+  <a class="poster-wrap" href="./movie-0632.html" aria-label="观看雷迪克编年史：黑暗女神">
+    <img class="movie-poster" src="./32.jpg" alt="雷迪克编年史：黑暗女神" loading="lazy">
+    <span class="year-badge">2027</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>美国</span><span>电影</span></div>
+    <h2><a href="./movie-0632.html">雷迪克编年史：黑暗女神</a></h2>
+    <p>宇宙逃犯雷迪克被卷入一场星际宗教战争，而他竟然是预言之子，要杀死沉睡的黑暗女神。</p>
+    <div class="card-tags"><span>反英雄</span><span>星际</span><span>神话</span></div>
+  </div>
+</article>
+<article class="movie-card" data-search="丑闻录带大阴谋 美国 剧集 悬疑 / 惊悚 都市传说, 连环杀人, 媒体批判 2027" data-year="2027" data-type="剧集">
+  <a class="poster-wrap" href="./movie-0643.html" aria-label="观看丑闻录带大阴谋">
+    <img class="movie-poster" src="./43.jpg" alt="丑闻录带大阴谋" loading="lazy">
+    <span class="year-badge">2027</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>美国</span><span>剧集</span></div>
+    <h2><a href="./movie-0643.html">丑闻录带大阴谋</a></h2>
+    <p>一本记载了半个世纪前丑闻的笔记重见天日，而笔记上所写的人，正在按顺序死去。</p>
+    <div class="card-tags"><span>都市传说</span><span>连环杀人</span><span>媒体批判</span></div>
+  </div>
+</article>
+<article class="movie-card" data-search="德洛丽丝 西班牙 电影 恐怖 娃娃, 寄生, 母职, 心理恐怖, 身体恐怖 2027" data-year="2027" data-type="电影">
+  <a class="poster-wrap" href="./movie-0671.html" aria-label="观看德洛丽丝">
+    <img class="movie-poster" src="./71.jpg" alt="德洛丽丝" loading="lazy">
+    <span class="year-badge">2027</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>西班牙</span><span>电影</span></div>
+    <h2><a href="./movie-0671.html">德洛丽丝</a></h2>
+    <p>一个不孕的妻子得到一个能“怀孕”的智能娃娃，但娃娃的肚子里长出的不是婴儿，而是一根根手指。</p>
+    <div class="card-tags"><span>娃娃</span><span>寄生</span><span>母职</span></div>
+  </div>
+</article>
+<article class="movie-card" data-search="无间英雄 中国香港 电影 动作 / 警匪 卧底, 义气, 枪战, 宿命 2027" data-year="2027" data-type="电影">
+  <a class="poster-wrap" href="./movie-0699.html" aria-label="观看无间英雄">
+    <img class="movie-poster" src="./99.jpg" alt="无间英雄" loading="lazy">
+    <span class="year-badge">2027</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>中国香港</span><span>电影</span></div>
+    <h2><a href="./movie-0699.html">无间英雄</a></h2>
+    <p>为了铲除亚洲最大的毒枭，警方派出卧底渗透，却不知毒枭的儿子也是警方安插在毒枭身边的卧底。</p>
+    <div class="card-tags"><span>卧底</span><span>义气</span><span>枪战</span></div>
+  </div>
+</article>
+<article class="movie-card" data-search="暗之伴走者 日本 动画剧集 悬疑 / 奇幻 影子契约, 都市怪谈, 双子设定, 压抑美学 2027" data-year="2027" data-type="动画剧集">
+  <a class="poster-wrap" href="./movie-0729.html" aria-label="观看暗之伴走者">
+    <img class="movie-poster" src="./129.jpg" alt="暗之伴走者" loading="lazy">
+    <span class="year-badge">2027</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>日本</span><span>动画剧集</span></div>
+    <h2><a href="./movie-0729.html">暗之伴走者</a></h2>
+    <p>男主角发现自己的影子不仅会说话，还在夜里做着和自己写的小说一模一样的事情。</p>
+    <div class="card-tags"><span>影子契约</span><span>都市怪谈</span><span>双子设定</span></div>
+  </div>
+</article>
+<article class="movie-card" data-search="杀戮星期天 西班牙 电影 惊悚悬疑 宗教极端, 时间循环, 小镇秘密, 赎罪 2027" data-year="2027" data-type="电影">
+  <a class="poster-wrap" href="./movie-0730.html" aria-label="观看杀戮星期天">
+    <img class="movie-poster" src="./130.jpg" alt="杀戮星期天" loading="lazy">
+    <span class="year-badge">2027</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>西班牙</span><span>电影</span></div>
+    <h2><a href="./movie-0730.html">杀戮星期天</a></h2>
+    <p>每到星期天，小镇上就会死一个人，而警察局长发现自己被困在了这个星期天里。</p>
+    <div class="card-tags"><span>宗教极端</span><span>时间循环</span><span>小镇秘密</span></div>
+  </div>
+</article>
+<article class="movie-card" data-search="孟婆传说 中国大陆 电视剧 奇幻, 古装 神话新编, 轮回, 治愈 2027" data-year="2027" data-type="电视剧">
+  <a class="poster-wrap" href="./movie-0904.html" aria-label="观看孟婆传说">
+    <img class="movie-poster" src="./4.jpg" alt="孟婆传说" loading="lazy">
+    <span class="year-badge">2027</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>中国大陆</span><span>电视剧</span></div>
+    <h2><a href="./movie-0904.html">孟婆传说</a></h2>
+    <p>孟婆并非老妪，而是一位犯了天规的年轻花神，熬汤是为了忘记自己看过的人间悲剧。</p>
+    <div class="card-tags"><span>神话新编</span><span>轮回</span><span>治愈</span></div>
+  </div>
+</article>
+<article class="movie-card" data-search="大力士：地狱历险 美国 电影 / 动画 动作 / 奇幻 / 冒险 希腊神话, 冥界救赎, 父子情 2027" data-year="2027" data-type="电影 / 动画">
+  <a class="poster-wrap" href="./movie-0942.html" aria-label="观看大力士：地狱历险">
+    <img class="movie-poster" src="./42.jpg" alt="大力士：地狱历险" loading="lazy">
+    <span class="year-badge">2027</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>美国</span><span>电影 / 动画</span></div>
+    <h2><a href="./movie-0942.html">大力士：地狱历险</a></h2>
+    <p>赫拉克勒斯为救被误判堕入地狱的母亲，不得不单枪匹马闯入塔耳塔罗斯。</p>
+    <div class="card-tags"><span>希腊神话</span><span>冥界救赎</span><span>父子情</span></div>
+  </div>
+</article>
+<article class="movie-card" data-search="捍卫者 中国 剧集 动作， 犯罪， 悬疑 律政， 私刑正义， 城市英雄， 无冕者 2027" data-year="2027" data-type="剧集">
+  <a class="poster-wrap" href="./movie-0960.html" aria-label="观看捍卫者">
+    <img class="movie-poster" src="./60.jpg" alt="捍卫者" loading="lazy">
+    <span class="year-badge">2027</span>
+    
+    <span class="play-dot">▶</span>
+  </a>
+  <div class="card-body">
+    <div class="meta-row"><span>中国</span><span>剧集</span></div>
+    <h2><a href="./movie-0960.html">捍卫者</a></h2>
+    <p>一个被判无罪的富二代再次犯案，愤怒的受害人父亲决定成为隐藏在城市阴影中的“捍卫者”。</p>
+    <div class="card-tags"><span>律政</span><span>私刑正义</span><span>城市英雄</span></div>
+  </div>
+</article>
+</div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="footer-brand" href="./index.html">欧美热门电影</a>
+      <p>聚合欧美热门电影与最新影片合集，展示近期热门内容和经典片单，方便浏览。</p>
+    </div>
+    <div>
+      <h2>片库入口</h2>
+      <div class="footer-links">
+        <a href="./categories.html">全部分类</a>
+        <a href="./rank.html">排行榜</a>
+        <a href="./search.html">影片搜索</a>
+      </div>
+    </div>
+    <div>
+      <h2>精选分类</h2>
+      <div class="footer-links">
+        <a href="./category-hot.html">热门片库</a><a href="./category-new.html">最新影片</a><a href="./category-classic.html">经典回看</a><a href="./category-action.html">动作冒险</a><a href="./category-drama.html">剧情佳作</a><a href="./category-suspense.html">悬疑惊悚</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 欧美热门电影 · 高清电影在线播放</div>
+</footer>
+<script src="./assets/app.js"></script>
+<script src="./assets/search-index.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

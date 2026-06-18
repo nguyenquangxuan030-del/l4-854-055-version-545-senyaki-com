@@ -1,0 +1,26 @@
+{
+    "parsed_movies": 2000,
+    "movie_html_files": 2000,
+    "category_pages": 12,
+    "category_card_count": 2000,
+    "analytics_html_files": 2016,
+    "html_files_total": 2016,
+    "missing_analytics": [],
+    "missing_links_count": 0,
+    "missing_links_sample": [],
+    "image_files_in_zip_source": 0,
+    "category_distribution": {
+        "精选剧集片单": 167,
+        "热门电视剧": 167,
+        "悬疑惊悚": 167,
+        "爱情青春": 167,
+        "动作冒险": 167,
+        "喜剧轻松": 167,
+        "科幻奇幻": 167,
+        "都市家庭": 167,
+        "海外佳作": 166,
+        "经典回顾": 166,
+        "新片更新": 166,
+        "冷门宝藏": 166
+    }
+}
